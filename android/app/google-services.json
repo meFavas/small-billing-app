@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314795131795",
+    "project_id": "accounting-app-8684a",
+    "storage_bucket": "accounting-app-8684a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314795131795:android:c00ebf81c82569671a1e66",
+        "android_client_info": {
+          "package_name": "com.example.billing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpIDgkV33H5OKkLgNBKZRq49RfDPXuTUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
