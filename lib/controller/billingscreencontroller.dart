@@ -3,14 +3,14 @@ import 'itemscreencontroller.dart'; // Import to use the methods for date and in
 
 class BillingscreenController {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-  final Itemscreencontroller _itemscreenController = Itemscreencontroller();
+  final Itemscreencontroller itemcontroller = Itemscreencontroller();
 
   String getCurrentDate() {
-    return _itemscreenController.getCurrentDate();
+    return itemcontroller.getCurrentDate();
   }
 
   String generateInvoiceNumber() {
-    return _itemscreenController.generateInvoiceNumber();
+    return itemcontroller.generateInvoiceNumber();
   }
 
   Future<void> saveToFirebase({
